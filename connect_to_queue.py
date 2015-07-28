@@ -9,6 +9,8 @@ import boto.sqs
 
 def check_queue():
     script_principal_id = 'AWS:{0}'.format(get_script_principal_id())
+    print(script_principal_id)
+    import sys; sys.exit()
     # TODO: load region, queue and bucket from config file
     conn = boto.sqs.connect_to_region('eu-west-1')
     queue = conn.get_queue('imageResize')
