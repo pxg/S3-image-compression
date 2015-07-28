@@ -1,4 +1,4 @@
-# S3 image optimisation
+# S3 image compression
 
 This project provides automatic lossless compression of jpegs added to s3. Need {{article_url}} for a full explanation of how to set-up AWS to get this running.
 
