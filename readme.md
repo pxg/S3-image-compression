@@ -1,6 +1,6 @@
 # S3 Automatic Image Compression
 
-This project provides automatic lossless compression of jpegs when they are added to an s3 bucket. Read https://github.com/pxg/S3-image-compression/blob/develop/article.md for a full explanation of how to set-up AWS to get this working.
+This project provides automatic lossless compression of jpegs when they are added to an s3 bucket. Read [this article](http://petegraham.co.uk/s3-automatic-image-compression/) for a full explanation of how to set-up AWS to get this working.
 
 ## Installation
 
